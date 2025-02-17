@@ -70,7 +70,10 @@
     padding: 10px;
   }
 }
+html {
+  scroll-behavior: smooth;
 
+}
 body {
   font-family: "Poppins", serif;
   background: var(--bg-light);
@@ -148,6 +151,7 @@ a {
   font-size: 30px;
   color: var(--bg-dark);
   transition: all 0.3s ease-in-out;
+  user-select: none;
 }
 
 .navbar .nav-links li a {
@@ -226,6 +230,7 @@ a {
     color: var(--bg-dark);
     text-transform: capitalize;
     width: 100%;
+    user-select: none;
   }
 
   .mobile-nav a::after {
